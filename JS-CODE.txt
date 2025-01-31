@@ -1,0 +1,121 @@
+1.What is JavaScript?
+   JavaScript is a high-level, interpreted programming language used to make web pages interactive. 
+      It is widely used.
+      Interpreted means  (JavaScript runs line by line at runtime).
+      Web Development (dynamic and interactive websites)
+      App Development (both web and mobile applications)
+      Game Development (browser-based games)
+      AI & Machine Learning (with libraries like TensorFlow.js)
+      Backend Development (using Node.js)
+
+
+
+    
+
+
+
+2.JavaScript's History?
+         It was born in 1995.
+         It was created by Brendan Eich.
+         The initial name was Mocha, then LiveScript, and finally JavaScript (to capitalize on Java’s popularity).
+
+
+
+
+
+3.Finding the Type of a Variable?
+   typeof variable; 
+
+
+
+
+
+4.Equality vs. Strict Equality?
+   5 == '5'   // true (loose comparison, type coercion occurs)  
+   5 === '5'  // false (strict comparison, type must also match)  
+
+
+
+
+5.Inequality Operators?
+   5 !== '5'  // true (different types: number vs. string)  
+   5 !== 5    // false (same value and type) 
+
+
+
+
+
+
+6.Loose Inequality?
+    5 != '5'   // false (type coercion makes both equal)  
+    5 != 3     // true (different values)  
+ 
+
+
+
+
+
+7.Checking if a Variable is an Array?
+   let ArrayCheck = [];
+   console.log(Array.isArray(ArrayCheck) ? [] : {});  
+
+
+
+
+
+
+8.Object Property?
+let data = {
+  "Gam": "Chourhri",
+  "Age": 20,
+  "Class": 12
+};
+console.log('Data:', data);
+console.log(Object.keys(data)); // ["Gam", "Age", "Class"]
+console.log(Object.values(data)); // ["Chourhri", 20, 12]
+// Other methods of Object
+console.log(Object.entries(data)); // [["Gam", "Chourhri"], ["Age", 20], ["Class", 12]]
+console.log(Object.hasOwnProperty.call(data, 'Age')); // true
+console.log(Object.getOwnPropertyNames(data)); // ["Gam", "Age", "Class"]
+console.log(Object.freeze(data)); // Freezes the object, preventing modifications
+console.log(Object.isFrozen(data)); // true
+
+   
+
+
+
+
+
+9.Key Skill?
+let a = 0;
+let b = "Fallback value";
+// Using || (Logical OR)
+let result1 = a || b;
+console.log(result1); // Output: "Fallback value" (because 0 is falsy)
+ 
+// Using ?? (Nullish Coalescing Operator)
+let result2 = a ?? b;
+console.log(result2); // Output: 0 (because 0 is not null or undefined)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

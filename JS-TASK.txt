@@ -1,0 +1,44 @@
+1.Deep Cloning an Object.
+         function DeepClone(ObjectFile) {
+         if (ObjectFile === null || typeof ObjectFile !== 'object') return ObjectFile;
+
+         let Clone = Array.isArray(ObjectFile) ? [] : {};
+
+         for (let Data in ObjectFile) {
+            if (ObjectFile.hasOwnProperty(Data)) {
+                  Clone[Data] = DeepClone(ObjectFile[Data]);
+            }
+         }
+         return Clone;
+      }
+
+      let ObjectFile = { a: 1, b: { c: 2, d: 3 }, e: 2 };
+      let FinalCalltheFunction = DeepClone(ObjectFile);
+      console.log(FinalCalltheFunction);
+      Note-Removing Duplicate Keys in JSON
+
+
+
+
+
+
+
+ 2.Promise Function.
+ async function FUNCTION_NAME(params) {
+    return new Promise(async (resolve, reject) => {
+        try {
+            // Perform some asynchronous operation
+            const result = await someAsyncOperation(params);
+            resolve(result); // Resolve the promise with the result
+        } catch (error) {
+            reject(error); // Reject the promise with an error
+        }
+    });
+}
+
+
+
+
+
+
+

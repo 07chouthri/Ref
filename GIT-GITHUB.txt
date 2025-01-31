@@ -1,0 +1,50 @@
+CI/CD stands for Continuous Integration and Continuous Delivery
+(or Continuous Deployment), and it’s a set of practices used 
+in software development to automate and streamline the process of building, testing, 
+and deploying code.
+
+Continuous Integration (CI) involves frequently 
+integrating code changes into a shared repository. 
+Every time new code is pushed, automated tests run to 
+catch bugs or issues early, ensuring that new changes
+don't break the existing code.(Automate Work)
+
+Continuous Delivery (CD) automates the process 
+of deploying code to a production environment. 
+This ensures that code is always in a deployable state and can be 
+released quickly with minimal manual intervention.(Maual Work)
+
+
+(Git) is a version control system for tracking changes in your code.
+(GitHub) is a cloud-based platform for hosting Git repositories and collaborating on code with others.
+
+
+1.Create the Account For GIT HUB.
+2.Instal The GIT.
+    Open the CMD.
+    Type GIT.
+    After Config Your (User Name) And Maile (ID).
+    C:\Users\chouthri.fcs>git config --global user.name "07chouthri"(Your GitHub Username).
+    C:\Users\chouthri.fcs>git config --global user.email "vasuchouthri811@gamil.com"(Your GitHub Maile Id ).
+
+
+3.In our GIT Use to VS code.
+    1.Open Termail.
+    2.--git --version
+    3.--git clone     (Your GIT HUB URL (https://github.com/07chouthri/CRUD-.git)).
+    4.Code Will Come Our Local VS Code.
+    5. TO Track The Staus Use   ---git status.
+    6. TO Add the File in GIT   ---git add     Your File Name   ,Save One Staging Area.   
+                                                Hit Add New File and delete Also use this Commend.
+    7. That File Move to GIT    ---git commit -m "Your Message"   ,Message is Very Important. 
+    8. Push to GIT HUB          ---git push origin main.
+
+    9. Close the Termail Orgin Is not    ---git push https://github.com/07chouthri/CRUD- .git.
+    10. New FIle Only in GIT HUB         ---git pull.
+
+
+    11.Crate the New Folder In Git  ---git init.
+    12.Add the Multi Pull File    ---(git add .) Use . Use Add the All File In Git.
+    
+
+    
