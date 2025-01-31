@@ -46,9 +46,14 @@ released quickly with minimal manual intervention.(Maual Work)
     11.Crate the New Folder In Git     ---git init.
     12.Add the Multi Pull File         ---(git add .) Use . Use Add the All File In Git.
     13.To Connect the New repository   ---git remote add origin https://github.com/07chouthri/Ref.git.
-    14 To Find the branch              ---git branch.
+    14 To Find the branch              ---git branch,(Current Branch).
+    15.To Find The All Brach           ---git branch -a
          master  (Only Show Brach you Can Are Youi Can Modifed..).
-    15.Branch Rename                   ---git branch -M    New name  .
+    16.Branch Rename Update            ---git branch -M    New name  .
+    17.Add New Git Hub you Can See tht --- git pull.
+    18.To Find The All Brach           ---git branch -a
+    19.Shuch to New Brach              ---git checkout New Brach name   .
+    
     
 
     
